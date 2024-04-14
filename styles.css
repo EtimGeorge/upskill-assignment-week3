@@ -24,6 +24,10 @@ section {
   margin-bottom: 20px;
 }
 
+/*.profile {
+  background-color: rgb(205, 191, 172);
+}*/
+
 h1 {
   color: aqua;
 }
@@ -51,9 +55,22 @@ ol {
 footer a {
   color: #fff;
   margin: 0 10px;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 footer a:hover {
   text-decoration: underline;
 }
+
+
+    .icon-link {
+        display: inline-block;
+        margin-right: 5px; /* Add spacing between icon and text */
+    
+    }
+    .icon-link i {
+        font-size: 35px; /* Adjust icon size */
+        color: #007bff; /* Set icon color */
+    }
+    
+   
